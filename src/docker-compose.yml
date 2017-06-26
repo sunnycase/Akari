@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  akari.web:
+    image: akari.web
+    build:
+      context: ./Akari.Web
+      dockerfile: Dockerfile
